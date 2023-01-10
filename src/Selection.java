@@ -1,21 +1,14 @@
 public class Selection {
 
-	private String name;
+	private String playerName;
+	private int x1,x2,z1,z2;
 
-	//Constructor, allows for passing values when creating a new instance of this class
-	public Selection(String name){
-		//set local variable (this.name) to variable passed in the constructor (name)
-		this.name = name;
-	}
-
-	//Also a constructor, but no variables required
-	public Selection(){
-		//Do something
-	}
-
-	//A constructor with 2 variables
-	public Selection(String name, int age){
-		System.out.println(age);
+	public Selection(String playerName, int x1, int x2, int z1, int z2){
+		this.playerName = playerName;
+		this.x1 = x1;
+		this.x2 = x2;
+		this.z1 = z1;
+		this.z2 = z2;
 	}
 
 }
