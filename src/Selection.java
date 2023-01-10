@@ -8,4 +8,14 @@ public class Selection {
 		this.name = name;
 	}
 
+	//Also a constructor, but no variables required
+	public Selection(){
+		//Do something
+	}
+
+	//A constructor with 2 variables
+	public Selection(String name, int age){
+		System.out.println(age);
+	}
+
 }
